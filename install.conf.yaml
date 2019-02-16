@@ -1,3 +1,5 @@
+#Most of this install script is based of the DotBot Original
+#feel free to add your own stuff to it
 - defaults:
     link:
       relink: true
@@ -7,8 +9,10 @@
 - link:
     ~/.dotfiles: ''
     ~/.tmux.conf: tmux.conf
-    ~/.vim: vim
+#   ~/.vim: vim
     ~/.vimrc: vimrc
-    ~/.bashrc: bashrc
+    ~/.bashrc:
+     path: bashrc
+     force: true
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
