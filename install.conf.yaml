@@ -10,7 +10,9 @@
     ~/.dotfiles: ''
     ~/.tmux.conf: tmux.conf
 #   ~/.vim: vim
-    ~/.vimrc: vimrc
+    ~/.vimrc: 
+     path: vimrc
+     force: true
     ~/.bashrc:
      path: bashrc
      force: true
