@@ -9,7 +9,6 @@
 - link:
     ~/.dotfiles: ''
     ~/.tmux.conf: tmux.conf
-    path: tmux.conf
 #   ~/.vim: vim
     ~/.vimrc: 
      path: vimrc
