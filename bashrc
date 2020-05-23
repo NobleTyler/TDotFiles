@@ -4,6 +4,7 @@
 alias update='sudo apt-get update && sudo apt-get upgrade && sudo apt-get autoremove'
 alias ga='git add .'
 alias vpn='sudo surfshark-vpn'
+alias dockIn = 'docker exec -it $1 /bin/bash'
 #heres some fzf stuff
 
 [ -f ~./fzf.bash ] && source ~/.fzf.bash
